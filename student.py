@@ -12,12 +12,13 @@ class Student:
         #return f"Hello {self.name} welcome to {self.school},How is {self.country}"
   
     def full_name(self):
-        return f"Hello your full name is {self.firstname } {self.lastname} "
+        return f"Hello  {self.firstname } {self.lastname} welcome to {self.school} , How is {self.country} "
         
     def years_of_birth(self)  :
        year_of_birth=2022-self.age
-       return f"Hello your year of birth is {year_of_birth}"
+       return f"Hello  {self.firstname } {self.lastname} welcome to {self.school} , How is {self.country} your year of birth is {year_of_birth}"
 
 
     def your_initials(self):
-        return f"Hello your initial is {self.firstname[0]}{self.lastname[0]}"
+        return f"Hello  {self.firstname } {self.lastname} welcome to {self.school} , How is {self.country}  your initial is {self.firstname[0]}{self.lastname[0]}"
+     
