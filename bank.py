@@ -83,8 +83,8 @@ class Bank:
         self.loan_balance-=pay
         print(f"Hello {self.name} you have paid {pay}  your  current loan balance is {self.loan_balance} ")
         overpaid=pay-self.total_amount
-        if pay>self.loan:
-            self.deposits+=overpaid
+        if pay>self.loan_balance:
+            self.deposits.append(overpaid)
 
     def transfer(self,amount,account) :
         self.amount=amount
